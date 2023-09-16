@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Automatic LocalStorage Settings",
+    "version": "1.0",
+    "description": "Extension to automatically set localStorage values",
+    "permissions": [
+        "storage",
+        "scripting",
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
